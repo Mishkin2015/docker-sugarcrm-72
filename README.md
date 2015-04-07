@@ -14,8 +14,6 @@ You'll need your own version of MySQL for this. As I use Debian testing as a hos
 
 There is nothing at all stopping you from creating another Docker instance running mysql but I figured this was an unnecessary step and getting data persistence working with Docker can be a little annoying.
 
-### Getting the Docker config
-
 ### Fill in Docker settings
 
 Edit run.sh and change the containers ip to whatever your hosts ip is. Don't forget to set the folder to your SugarCRM code folder.
